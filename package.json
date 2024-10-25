@@ -1,0 +1,13 @@
+{
+  "name": "mkcomps",
+  "version": "1.0.0",
+  "description": "create a react component with sass",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mkcomps": "./mkcomps.js"
+  },
+  "author": "Shuo Wang",
+  "license": "MIT"
+}
