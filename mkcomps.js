@@ -15,7 +15,7 @@ function capitalizeFirstLetter(string) {
 function createComponentFile(parentPath, componentName) {
   const componentPath = path.join(parentPath, componentName, "index.tsx");
   const componentContent = `import styles from './index.module.scss' \n export default function ${componentName} () {
-        return ()
+        return (<div>${componentName}</div>)
     }`;
   fs.writeFileSync(componentPath, componentContent);
   console.log(`Component is in ${componentPath}`);
